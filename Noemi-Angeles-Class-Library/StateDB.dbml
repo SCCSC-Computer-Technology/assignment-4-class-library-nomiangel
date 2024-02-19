@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StateDB" Class="StateDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\StateDB.mdf;Integrated Security=True" SettingsObjectName="Noemi_Angeles_CPT_206_LAB_2.Properties.Settings" SettingsPropertyName="StateDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.States" Member="States">
+    <Type Name="State">
+      <Column Name="State" Member="State1" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Population" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[State Flag Description]" Member="State_Flag_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[State Flower]" Member="State_Flower" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[State Bird]" Member="State_Bird" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[State Colors]" Member="State_Colors" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Three Largest Cities]" Member="Three_Largest_Cities" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[State Capitol]" Member="State_Capitol" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Median Income]" Member="Median_Income" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Percentage of Computer-Related Jobs]" Member="Percentage_of_Computer_Related_Jobs" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
