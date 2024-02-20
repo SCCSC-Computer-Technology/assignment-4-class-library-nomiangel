@@ -1,0 +1,3 @@
+I like that the methods are commented in a general sense. It may have been helpful to coment what the query was doing so the purpose was clear at a glance. The class is overall readable and well organized.
+There isn't a program to test for defects with the compiler, however everything in the class looks like it would work to its purpose.
+One way that our classes differ is your use of lambdas in the sort methods. It makes the query coding shorter and more efficient. Everything looks really good to me so great job.
