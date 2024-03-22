@@ -1,0 +1,17 @@
+Noemi Angeles code review by Aaron Rash
+
+I see you've built a class libray that contains all your search/sort queries.
+I attempted the same thing, but used a different approach.
+While I used table adapters, you used linq to sql, and returned your results with IQueryable.
+
+Using table adapters can be functional, but its a little harder to work with in my opinion
+Having queries built into the code is a lot more intuitive
+
+Linq to sql makes it easy to read/edit
+Using IQueryable is concise and gives functionality
+And using this as a class library will keep your main code clean & organized.
+
+I find your approach a lot preferable to mine.
+
+Your library is very comprehensive, while staying readable.
+I consider this a success.
